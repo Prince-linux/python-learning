@@ -5,8 +5,8 @@ import sys
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 # Date -- 24th August 2015
 
-num1 = input("Please enter your first number: ")
-num2 = input("Please enter your second number: ")
+num1 = input("Please enter any integer: ")
+num2 = input("Please enter another integer: ")
 try:
     a = int(num1)
     b = int(num2)
