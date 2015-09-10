@@ -10,6 +10,9 @@ class Student:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
 # The program starts running here.
 s = Student("Doris")
 print("s is a %s" % (s.__class__))

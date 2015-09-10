@@ -10,6 +10,10 @@ class Planet:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
+
 # The program starts running here.
 d = Planet("Mars")
 d.people = "None"

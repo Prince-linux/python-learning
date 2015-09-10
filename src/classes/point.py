@@ -10,6 +10,9 @@ class Point:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
 # The program starts running here.
 x = Point("90 points")
 print("x is a %s" % (x.__class__))

@@ -10,6 +10,9 @@ class Document:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
 # The program starts running here.
 f = Document("snap.pdf")
 print("f is a %s" % (f.__class__))

@@ -10,6 +10,10 @@ class Product:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
+
 # The program starts running here.
 p = Product("Lenovo")
 p.price = "2000gh cedis or 400 pounds or 600 dollars to be precise."

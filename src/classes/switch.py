@@ -10,6 +10,9 @@ class Switch:
     def __init__(self, name):
         self.name = name
 
+    def __str__(self):
+        return self.name
+
 # The program starts running here.
 q = Switch("Mtn")
 print("q is a %s" % (q.__class__))
