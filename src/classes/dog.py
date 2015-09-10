@@ -7,11 +7,11 @@
 # Date -- 9th September, 2015
 
 class Dog:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 # The program starts running here.
-s = Dog()
-s.name = "Leslie"
+s = Dog("Leslie")
 s.race = "Local"
 print("s is a %s" % (s.__class__))
 print("The dog is called %s and it is a %s breed" % (s.name, s.race))

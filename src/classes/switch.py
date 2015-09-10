@@ -4,15 +4,15 @@
 
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 
-# Date -- 9th September, 2015
+# Date -- 10th September, 2015
 
 class Switch:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 # The program starts running here.
-q = Switch()
+q = Switch("Mtn")
 print("q is a %s" % (q.__class__))
-q.name = "Mtn"
 q.new_name = "Tigo"
 q.number = "0547616821"
 q.number1 = "0572723240"

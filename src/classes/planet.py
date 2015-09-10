@@ -4,14 +4,14 @@
 
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 
-# Date -- 9th September, 2015
+# Date -- 10th September, 2015
 
 class Planet:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 # The program starts running here.
-d = Planet()
-d.name = "Mars"
+d = Planet("Mars")
 d.people = "None"
 d.name1 = "Earth"
 d.people1 = " A lot"

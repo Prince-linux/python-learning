@@ -4,15 +4,15 @@
 
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 
-# Date -- 9th September, 2015
+# Date -- 10th September, 2015
 
 class Currency:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 # The program starts running here.
-c = Currency()
+c = Currency("Dollar")
 print("c is a %s" % (c.__class__))
-c.name = "Dollar"
 c.value = "3gh cedis"
 c.name1 = "Pounds Sterling"
 c.value1 = "5gh cedis"

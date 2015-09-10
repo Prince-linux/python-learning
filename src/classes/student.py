@@ -1,17 +1,18 @@
 #! /usr/bin/python3
 
-# student.py -- This script prints out the name of a student and the school he attends.
+# student.py -- This script prints out the name of a student and the school attended
 
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 
-# Date -- 9th September 2015.
+# Date -- 10th September 2015.
 
 class Student:
-    pass
+    def __init__(self, name):
+        self.name = name
+
 # The program starts running here.
-s = Student()
+s = Student("Doris")
 print("s is a %s" % (s.__class__))
-s.name = "Doris"
 s.school = "University of Chana"
 print("%s is a student of %s" % (s.name, s.school))
 

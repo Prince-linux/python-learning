@@ -4,14 +4,14 @@
 
 # Author -- Prince Oppong Boamah<regioths@gmail.com>
 
-# Date -- 9th September, 2015
+# Date -- 10th September, 2015
 
 class Point:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 # The program starts running here.
-x = Point()
+x = Point("90 points")
 print("x is a %s" % (x.__class__))
-x.name = "90 points"
 print("The marathon resulted in kofi getting %s" % (x.name))
 
